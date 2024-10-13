@@ -1,5 +1,5 @@
 
-# Ddaily news website
+# Daily news website
 
 This project aims to provide basic solutions for fechting latest headlines from [News API Documentation](https://newsapi.org/docs/endpoints/top-headlines). Headlines, published date, Source, autor name and link sharing between server and browser... We're going to diaplay all such data in a simplified manner.
 
