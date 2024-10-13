@@ -1,0 +1,162 @@
+/* styling is in rem unit */
+
+html {
+	font-size: 16px;
+}
+
+body {
+	background-color: whitesmoke;
+	font-family: "Raleway", sans-serif;
+	font-optical-sizing: auto;
+	font-weight: 500;
+	font-style: normal;
+}
+
+
+/* header of website */
+.header {
+	display: flex;
+	width: 100%;
+	background-color: white;
+	align-items: center;
+	padding: 0.5rem 1.2rem;
+	justify-content: space-between;
+	position: fixed;
+	height: 4rem;
+	top: 0;
+	left: 0;
+	right: 0;
+	box-shadow: rgba(0, 0, 0, 0.1) 0 4px 12px;
+}
+.header input {
+	height: 2rem;
+	width: 30rem;
+	border-radius: 0.5rem;
+	margin: 0 100px;
+	background-color: whitesmoke;
+	padding: 5px 10px;
+	border: 1px solid transparent;
+	outline: none;
+
+}
+.header p {
+	color: red;
+	text-shadow: 0 0 5px #638253;
+}
+
+.list {
+	width: 60%;
+	margin: 6rem auto auto;
+}
+.list .date p {
+	padding-top: 1rem;
+	opacity: 0.5;
+}
+.list-item {
+	background-color: white;
+	border-radius: 1rem;
+	margin-top: 1.5rem;
+	display: flex;
+	padding: 0.5rem;
+	box-shadow: rgba(0, 0, 0, 0.16) 0 3px 6px, rgba(0, 0, 0, 0.23) 0 3px 6px;
+
+}
+.list-item .col_1 {
+	padding: 0.5rem;
+  width: 75%;
+}
+.list-item .col_1 .source {
+	text-align: left;
+	border-bottom: 1px solid black;
+	color: red;
+	font-size: 1rem;
+}
+
+.list-item .col_1 .author {
+	display: flex;
+	align-items: center;
+	text-align: left;
+	margin-bottom: 0;
+	font-size: 0.8rem;
+
+}
+.list-item .col_1 .author span {
+	font-weight: bold;
+}
+.list-item .col_1 a {
+	color: rgb(14, 12, 12);
+	text-transform: capitalize;
+	font-size: 1.1rem;
+	font-style: italic;
+}
+.list-item .col_1 a:hover {
+	text-decoration: underline;
+	color: blue;
+}
+
+.list-item .col_2 {
+	text-align: center;
+}
+
+.list-item .col_2 img {
+	width: 12.5rem;
+	height: 9.5rem;
+	border-radius: 0.5rem;
+}
+
+button {
+	border-radius: 0.5rem;
+	border: 1px solid transparent;
+	padding: 0.6rem 1.2rem;
+	font-size: 0.7rem;
+	font-weight: 500;
+	font-family: inherit;
+	margin: 0.5rem 0;
+	background-color: whitesmoke;
+	cursor: pointer;
+	transition: border-color 0.25s;
+	color: #4a8b29;
+}
+
+/* button on hover effect */
+button:hover {
+	border-color: #646cff;
+	color: #646cff;
+}
+
+button a {
+	text-decoration: none;
+}
+
+/* CSS Media Queries */
+
+/* Extra small devices (phones, 576px and down) */
+@media screen and (max-width: 576px) {
+  body {
+		font-size: 1rem;
+	}
+	.list-item {
+		display: inline-block;
+	}
+  .list-item .col_1 {
+    width: 90%;
+  }
+	.list-item .col_2 {
+		display: block;
+	}
+}
+
+/* Small devices (portrait tablets and large phones, 576px to 992px) */
+@media screen and (min-width: 576px) and (max-width:992px) {
+	body {
+		font-size: 1.2rem;
+	}
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media screen and (min-width: 992px) {
+	body {
+		font-size: 1.5rem;
+	}
+
+}
