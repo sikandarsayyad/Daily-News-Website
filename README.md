@@ -1,8 +1,21 @@
-# React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# Ddaily news website
 
-Currently, two official plugins are available:
+This project aims to provide basic solutions for fechting latest headlines from [News API Documentation](https://newsapi.org/docs/endpoints/top-headlines). Headlines, published date, Source, autor name and link sharing between server and browser... We're going to diaplay all such data in a simplified manner.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+
+
+## Installation and run
+
+1.Download and unzip repo
+2.Go to unzipped folder
+3.Open folder in terminal or in editor
+3.Install packages with command npm install
+4.Run program with command npm run dev
+5.Click on the link
+    
+## Documentation
+
+[Documentation](https://newsapi.org/docs/endpoints/top-headlines)
+
+
